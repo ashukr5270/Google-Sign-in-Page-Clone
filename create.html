@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Google Account</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="signin-box">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
+                alt="Google Logo" class="logo">
+
+            <h2>Create your Google Account</h2>
+
+            <form id="createForm">
+                <div class="input-group">
+                    <input type="text" id="name" required />
+                    <label for="name">Full Name</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="email" id="newEmail" required />
+                    <label for="newEmail">Email</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="password" id="newPassword" required />
+                    <label for="newPassword">Password</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="tel" id="mobile" required />
+                    <label for="mobile">Mobile Number</label>
+                </div>
+
+                <div class="buttons">
+                    <a href="index.html" class="create">Back to Login</a>
+                    <button type="submit">Sign Up</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="create.js"></script>
+</body>
+
+</html>
